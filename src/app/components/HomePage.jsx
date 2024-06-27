@@ -201,6 +201,55 @@ const Content = () => {
             </div>
           </div>
         </div>
+        <style jsx global>
+          {`
+            .button1 {
+              background-color: black;
+              color: white;
+            }
+            .button1:hover {
+              background-color: white;
+              color: black;
+            }
+            .button2 {
+              background-color: black;
+              color: white;
+            }
+            .button2:hover {
+              background-color: white;
+              color: black;
+            }
+            .button3 {
+              background-color: black;
+              color: white;
+            }
+            .button3:hover {
+              background-color: white;
+              color: black;
+            }
+            .button4 {
+              background-color: black;
+              color: white;
+            }
+            .button4:hover {
+              background-color: white;
+              color: black;
+            }
+            body::-webkit-scrollbar {
+              width: 8px; /* width of the entire scrollbar */
+            }
+
+            body::-webkit-scrollbar-track {
+              background: grey; /* color of the tracking area */
+            }
+
+            body::-webkit-scrollbar-thumb {
+              background-color: black; /* color of the scroll thumb */
+              border-radius: 20px; /* roundness of the scroll thumb */
+              border: 3px solid orange; /* creates padding around scroll thumb */
+            }
+          `}
+        </style>
       </div>
     </main>
   );
