@@ -1,69 +1,60 @@
 "use client";
+import Template from "../components/Template";
+import React from "react";
+import {
+  Card,
+  CardBody,
+  CardHeader,
+  Link,
+  Image,
+  Divider,
+  Button,
+} from "@nextui-org/react";
 const Content = () => {
   return (
-    <main className="overflow-y-auto" style={{ scrollBehavior: "smooth" }}>
-      <div>
-        <div className="flex items-center justify-center h-screen bg-fixed bg-background_1 bg-auto md:bg-cover h-screen bg-fixed flex items-center justify-center">
+    <main className="" style={{ scrollBehavior: "smooth" }}>
+      <div style={{ marginTop: "70px" }}>
+        <div
+          className="flex items-end justify-center  bg-background_1 bg-auto bg-cover h-[38rem] bg-center"
+          style={{ paddingBottom: "3rem" }}
+        >
           <div className="text-center text-white max-w-xl">
-            <h1 className="text-5xl">Medchain</h1>
+            <h1 className="text-5xl">lorem | ipsum | lorem</h1>
+            <br />
+            <p className="text-xl">lorem ipsum lorem ipsum lorem ipsum</p>
+            <br />
+            <Template>
+              <Link href="/connect">
+                <button
+                  style={{}}
+                  className={`button4 rounded-full border-2 px-4 py-2 text-lg cursor-pointer`}
+                >
+                  Join Waiting List
+                </button>
+              </Link>
+            </Template>
+          </div>
+        </div>
+        <div
+          className="flex items-top justify-center h-[100rem] bg-[#18181b] bg-cover"
+          style={{ paddingTop: "5rem" }}
+        >
+          <div className="text-white max-w-4xl text-center">
+            <h1 className="text-7xl">
+              <b>lorem ipsum</b>
+            </h1>
+            <br />
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+              nam unde maxime, labore totam ad repudiandae, eos, expedita ipsa
+              nesciunt recusandae soluta voluptatem ratione facere fugiat minima
+              quam eum ex. Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit. Deleniti eos saepe repellat a voluptatem, enim libero
+              pariatur quam repellendus, tempore dolorem cupiditate fugit,
+              beatae nam unde perferendis modi recusandae blanditiis.
             </p>
           </div>
         </div>
-        <div className="flex items-center justify-start h-screen bg-fixed bg-im2 bg-cover">
-          <div className=" text-white max-w-xl bottom-0 left-0">
-            <h1 className="text-2xl">Medchain</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
-          </div>
-        </div>
-        <div className="flex items-center justify-start h-screen bg-fixed bg-im3 bg-cover">
-          <div className=" text-white max-w-xl">
-            <h1 className="text-2xl">Medchain</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
-          </div>
-        </div>
-        <div className="flex items-center justify-start h-screen bg-fixed bg-im4 bg-cover">
-          <div className="text-white max-w-xl">
-            <h1 className="text-2xl ">Medchain</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
-          </div>
-        </div>
-        <style jsx global>
-          {`
-            body::-webkit-scrollbar {
-              width: 8px; /* width of the entire scrollbar */
-            }
-
-            body::-webkit-scrollbar-track {
-              background: grey; /* color of the tracking area */
-            }
-
-            body::-webkit-scrollbar-thumb {
-              background-color: black; /* color of the scroll thumb */
-              border-radius: 20px; /* roundness of the scroll thumb */
-              border: 3px solid orange; /* creates padding around scroll thumb */
-            }
-          `}
-        </style>
       </div>
     </main>
   );
