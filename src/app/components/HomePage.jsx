@@ -53,6 +53,59 @@ const Content = () => {
               pariatur quam repellendus, tempore dolorem cupiditate fugit,
               beatae nam unde perferendis modi recusandae blanditiis.
             </p>
+            <br />
+            <br />
+            <img src="/chain.jpg" alt="" />
+            <br />
+            <br />
+            <h1
+              className="text-3xl max-w-7xl  text-center "
+              style={{ fontSize: "35px" }}
+            >
+              lorem ipsum lorem ipsum lorem ipsum
+            </h1>
+            <br />
+            <div className="flex items-top justify-center grid grid-cols-1 md:grid-cols-3 gap-10 md:flex-auto">
+              <div
+                className=" rounded-md bg-[#27272a]"
+                style={{ marginLeft: "20px", marginRight: "20px" }}
+              >
+                <Card
+                  className="max-w-[500px]"
+                  style={{
+                    marginTop: "10px",
+                    marginLeft: "10px",
+                    marginRight: "10px",
+                  }}
+                ></Card>
+              </div>
+              <div
+                className="rounded-md bg-[#27272a]"
+                style={{ marginLeft: "20px", marginRight: "20px" }}
+              >
+                <Card
+                  className="max-w-[500px]"
+                  style={{
+                    marginTop: "10px",
+                    marginLeft: "10px",
+                    marginRight: "10px",
+                  }}
+                ></Card>
+              </div>
+              <div
+                className=" rounded-md bg-[#27272a]"
+                style={{ marginLeft: "20px", marginRight: "20px" }}
+              >
+                <Card
+                  className="max-w-[500px]"
+                  style={{
+                    marginTop: "10px",
+                    marginLeft: "10px",
+                    marginRight: "10px",
+                  }}
+                ></Card>
+              </div>
+            </div>
           </div>
         </div>
       </div>
