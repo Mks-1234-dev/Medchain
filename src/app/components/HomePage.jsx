@@ -77,7 +77,38 @@ const Content = () => {
                     marginLeft: "10px",
                     marginRight: "10px",
                   }}
-                ></Card>
+                >
+                  <CardHeader className="justify-center">
+                    <Image
+                      alt="img 1"
+                      height={400}
+                      radius="sm"
+                      src="/card1.jpg"
+                      width={400}
+                    />
+                  </CardHeader>
+                  <br />
+                  <Divider />
+                  <CardBody>
+                    <h1 style={{ fontSize: "19px" }}>
+                      <b>Lorem Ipsum lorem</b>
+                    </h1>
+                    <br />
+                    <p style={{ fontSize: "15px" }} className="text-start">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Perspiciatis consequatur distinctio eos, ipsam dolor non
+                      voluptatum in aut dolorem eius doloribus quidem ex
+                      reprehenderit laboriosam sapiente deleniti maxime sunt
+                      asperiores? Lorem ipsum dolor, sit amet consectetur
+                      adipisicing elit. Sed enim neque temporibus fuga laborum
+                      vel quidem, repellendus corporis labore? Eaque laudantium
+                      vero consequuntur atque expedita natus sed officiis ad
+                      ducimus?
+                    </p>
+                    <br />
+                    <br />
+                  </CardBody>
+                </Card>
               </div>
               <div
                 className="rounded-md bg-[#27272a]"
@@ -90,7 +121,39 @@ const Content = () => {
                     marginLeft: "10px",
                     marginRight: "10px",
                   }}
-                ></Card>
+                >
+                  <CardHeader className="justify-center">
+                    <Image
+                      alt="img 2"
+                      height={400}
+                      radius="sm"
+                      src="/card2.jpg"
+                      width={400}
+                    />
+                  </CardHeader>
+                  <br />
+                  <Divider />
+                  <CardBody>
+                    <h1 style={{ fontSize: "20px" }}>
+                      <b>lorem ipsum lorem</b>
+                    </h1>
+                    <br />
+                    <p style={{ fontSize: "15px" }} className="text-start">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Nisi aspernatur, cumque veritatis, nostrum adipisci
+                      cupiditate inventore quis unde modi molestias sapiente
+                      totam facilis, aliquid sit atque molestiae perferendis
+                      amet ratione? Lorem ipsum dolor sit amet consectetur
+                      adipisicing elit. Sit, totam, odio excepturi dolore,
+                      doloremque maiores dolorum vitae consectetur placeat quo
+                      ullam optio facilis. Eum magnam accusantium pariatur
+                      reprehenderit ad ullam.
+                    </p>
+                    <br />
+                    <br />
+                    <br />
+                  </CardBody>
+                </Card>
               </div>
               <div
                 className=" rounded-md bg-[#27272a]"
@@ -103,7 +166,37 @@ const Content = () => {
                     marginLeft: "10px",
                     marginRight: "10px",
                   }}
-                ></Card>
+                >
+                  <CardHeader className="justify-center">
+                    <Image
+                      alt="img 3"
+                      height={400}
+                      radius="sm"
+                      src="/card3.jpg"
+                      width={400}
+                    />
+                  </CardHeader>
+                  <br />
+                  <Divider />
+                  <CardBody>
+                    <h1 style={{ fontSize: "20px" }}>
+                      <b>lorem ipsum</b>
+                    </h1>
+                    <br />
+                    <p style={{ fontSize: "15px" }} className="text-start">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Sit nemo laboriosam sint laborum quos repellendus
+                      accusantium vero, exercitationem numquam adipisci atque
+                      molestias error blanditiis aperiam cumque veniam soluta.
+                      Culpa, omnis. Lorem ipsum dolor sit, amet consectetur
+                      adipisicing elit. Velit asperiores eveniet numquam
+                      praesentium, voluptatibus, eum placeat est repudiandae
+                      illum commodi esse laudantium, assumenda odit id inventore
+                      ab quasi fugiat fugit.
+                    </p>
+                    <br />
+                  </CardBody>
+                </Card>
               </div>
             </div>
           </div>
