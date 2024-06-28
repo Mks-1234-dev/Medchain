@@ -40,6 +40,46 @@ const TeamData = [
     image: "/dramin.png",
     tag: ["Board of Advisor"],
   },
+  {
+    id: 5,
+    title: "lorem ipsum lorem ipsum",
+    description:
+      "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+    image: "/sabya.png",
+    tag: ["Board of Advisor"],
+  },
+  {
+    id: 6,
+    title: "lorem ipsum lorem ipsum",
+    description:
+      "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+    image: "/dramin.png",
+    tag: ["Board of Advisor"],
+  },
+  {
+    id: 7,
+    title: "lorem ipsum lorem ipsum",
+    description:
+      "lorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum ",
+    image: "/sabya.png",
+    tag: ["Board of Advisor"],
+  },
+  {
+    id: 8,
+    title: "lorem ipsum lorem ",
+    description:
+      "lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsum.",
+    image: "/dramin.png",
+    tag: ["Board of Advisor"],
+  },
+
+  {
+    id: 9,
+    title: "lorem ipsum",
+    description: "Co-Founder & CXO",
+    image: "/pritam.png",
+    tag: ["Leadership"],
+  },
 ];
 
 const Team = () => {
