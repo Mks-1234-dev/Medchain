@@ -51,6 +51,13 @@ const Team = () => {
             padding: 0;
             height: 100vh; // Makes the section take the full height of the viewport
           }
+          #News div {
+            flex: none; // Disables flexbox sizing
+            width: 100%;
+            height: 100vh; // Makes the image take the full height of the viewport
+            position: relative;
+            overflow: hidden; // Ensures no spillover
+          }
           #News div img {
             object-fit: cover; // Covers the entire area of the div
             min-height: 100%; // Ensures the image covers the full height
@@ -96,6 +103,18 @@ const Team = () => {
             padding: 0;
             height: 100vh; // Makes the section take the full height of the viewport
           }
+          #News div img {
+            object-fit: cover; // Covers the entire area of the div
+            min-height: 100%; // Ensures the image covers the full height
+            min-width: 100%; // Ensures the image covers the full width
+          }
+          #News div {
+            flex: none; // Disables flexbox sizing
+            width: 100%;
+            height: 100vh; // Makes the image take the full height of the viewport
+            position: relative;
+            overflow: hidden; // Ensures no spillover
+          }
         `}</style>
       </section>
       <section
@@ -134,6 +153,18 @@ const Team = () => {
             margin: 0;
             padding: 0;
             height: 100vh; // Makes the section take the full height of the viewport
+          }
+          #News div img {
+            object-fit: cover; // Covers the entire area of the div
+            min-height: 100%; // Ensures the image covers the full height
+            min-width: 100%; // Ensures the image covers the full width
+          }
+          #News div {
+            flex: none; // Disables flexbox sizing
+            width: 100%;
+            height: 100vh; // Makes the image take the full height of the viewport
+            position: relative;
+            overflow: hidden; // Ensures no spillover
           }
         `}</style>
       </section>
