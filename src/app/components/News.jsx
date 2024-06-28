@@ -51,6 +51,11 @@ const Team = () => {
             padding: 0;
             height: 100vh; // Makes the section take the full height of the viewport
           }
+          #News div img {
+            object-fit: cover; // Covers the entire area of the div
+            min-height: 100%; // Ensures the image covers the full height
+            min-width: 100%; // Ensures the image covers the full width
+          }
         `}</style>
       </section>
       {/* //make another section like above but image in right and text in left rest same */}
@@ -59,6 +64,17 @@ const Team = () => {
         className="flex flex-row align-items-center "
         style={{ alignItems: "center", position: "relative" }}
       >
+        <p
+          className="max-w-xl z-20"
+          style={{
+            flex: "1 0 50%",
+            maxWidth: "50%",
+            fontSize: "18px",
+            padding: "20px",
+          }}
+        >
+          lorem ipsum lorem
+        </p>
         <div
           style={{ flex: "1 0 50%", maxWidth: "50%", backgroundColor: "white" }}
           className="z-10 "
@@ -71,8 +87,35 @@ const Team = () => {
             className="flex-none"
           />
         </div>
+        <style jsx global>{`
+          #News {
+            flex-direction: column;
+            align-items: stretch;
+            position: relative;
+            margin: 0;
+            padding: 0;
+            height: 100vh; // Makes the section take the full height of the viewport
+          }
+        `}</style>
+      </section>
+      <section
+        id="News"
+        className="flex flex-row align-items-center"
+        style={{ alignItems: "center", position: "relative" }}
+      >
+        <div
+          style={{ flex: "1 0 50%", maxWidth: "50%", backgroundColor: "white" }}
+        >
+          <Image
+            src="/dramin.png"
+            width={500}
+            height={300}
+            objectFit="cover"
+            className="flex-none"
+          />
+        </div>
         <p
-          className="max-w-xl z-20"
+          className="max-w-xl"
           style={{
             flex: "1 0 50%",
             maxWidth: "50%",
@@ -80,7 +123,7 @@ const Team = () => {
             padding: "20px",
           }}
         >
-          lorem ipsum lorem
+          lorem ipsum lorem ipsum lorem
         </p>
 
         <style jsx global>{`
