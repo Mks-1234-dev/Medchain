@@ -43,25 +43,43 @@ const Team = () => {
         </p>
 
         <style jsx global>{`
-          #News {
-            flex-direction: column;
-            align-items: stretch;
-            position: relative;
-            margin: 0;
-            padding: 0;
-            height: 100vh; // Makes the section take the full height of the viewport
-          }
-          #News div {
-            flex: none; // Disables flexbox sizing
-            width: 100%;
-            height: 100vh; // Makes the image take the full height of the viewport
-            position: relative;
-            overflow: hidden; // Ensures no spillover
-          }
-          #News div img {
-            object-fit: cover; // Covers the entire area of the div
-            min-height: 100%; // Ensures the image covers the full height
-            min-width: 100%; // Ensures the image covers the full width
+          @media (max-width: 768px) {
+            #News {
+              flex-direction: column;
+              align-items: stretch;
+              position: relative;
+              margin: 0;
+              padding: 0;
+              height: 100vh; // Makes the section take the full height of the viewport
+            }
+            #News div {
+              flex: none; // Disables flexbox sizing
+              width: 100%;
+              height: 100vh; // Makes the image take the full height of the viewport
+              position: relative;
+              overflow: hidden; // Ensures no spillover
+            }
+            #News div img {
+              object-fit: cover; // Covers the entire area of the div
+              min-height: 100%; // Ensures the image covers the full height
+              min-width: 100%; // Ensures the image covers the full width
+            }
+            #News p {
+              position: absolute;
+              bottom: 0;
+              left: 50;
+              width: 100%;
+              background-color: rgba(
+                0,
+                0,
+                0,
+                0.7
+              ); // Semi-transparent black background
+              color: white; // White text color
+              font-size: 16px; // Smaller font size for small screens
+              padding: 15px; // Appropriate padding for visibility
+              text-align: center; // Center the text
+            }
           }
         `}</style>
       </section>
@@ -95,25 +113,43 @@ const Team = () => {
           />
         </div>
         <style jsx global>{`
-          #News {
-            flex-direction: column;
-            align-items: stretch;
-            position: relative;
-            margin: 0;
-            padding: 0;
-            height: 100vh; // Makes the section take the full height of the viewport
-          }
-          #News div img {
-            object-fit: cover; // Covers the entire area of the div
-            min-height: 100%; // Ensures the image covers the full height
-            min-width: 100%; // Ensures the image covers the full width
-          }
-          #News div {
-            flex: none; // Disables flexbox sizing
-            width: 100%;
-            height: 100vh; // Makes the image take the full height of the viewport
-            position: relative;
-            overflow: hidden; // Ensures no spillover
+          @media (max-width: 768px) {
+            #News {
+              flex-direction: column;
+              align-items: stretch;
+              position: relative;
+              margin: 0;
+              padding: 0;
+              height: 100vh; // Makes the section take the full height of the viewport
+            }
+            #News div {
+              flex: none; // Disables flexbox sizing
+              width: 100%;
+              height: 100vh; // Makes the image take the full height of the viewport
+              position: relative;
+              overflow: hidden; // Ensures no spillover
+            }
+            #News div img {
+              object-fit: cover; // Covers the entire area of the div
+              min-height: 100%; // Ensures the image covers the full height
+              min-width: 100%; // Ensures the image covers the full width
+            }
+            #News p {
+              position: absolute;
+              bottom: 0;
+              right: 50;
+              width: 100%;
+              background-color: rgba(
+                0,
+                0,
+                0,
+                0.7
+              ); // Semi-transparent black background
+              color: white; // White text color
+              font-size: 16px; // Smaller font size for small screens
+              padding: 15px; // Appropriate padding for visibility
+              text-align: center; // Center the text
+            }
           }
         `}</style>
       </section>
@@ -146,25 +182,43 @@ const Team = () => {
         </p>
 
         <style jsx global>{`
-          #News {
-            flex-direction: column;
-            align-items: stretch;
-            position: relative;
-            margin: 0;
-            padding: 0;
-            height: 100vh; // Makes the section take the full height of the viewport
-          }
-          #News div img {
-            object-fit: cover; // Covers the entire area of the div
-            min-height: 100%; // Ensures the image covers the full height
-            min-width: 100%; // Ensures the image covers the full width
-          }
-          #News div {
-            flex: none; // Disables flexbox sizing
-            width: 100%;
-            height: 100vh; // Makes the image take the full height of the viewport
-            position: relative;
-            overflow: hidden; // Ensures no spillover
+          @media (max-width: 768px) {
+            #News {
+              flex-direction: column;
+              align-items: stretch;
+              position: relative;
+              margin: 0;
+              padding: 0;
+              height: 100vh; // Makes the section take the full height of the viewport
+            }
+            #News div {
+              flex: none; // Disables flexbox sizing
+              width: 100%;
+              height: 100vh; // Makes the image take the full height of the viewport
+              position: relative;
+              overflow: hidden; // Ensures no spillover
+            }
+            #News div img {
+              object-fit: cover; // Covers the entire area of the div
+              min-height: 100%; // Ensures the image covers the full height
+              min-width: 100%; // Ensures the image covers the full width
+            }
+            #News p {
+              position: absolute;
+              bottom: 0;
+              left: 50;
+              width: 100%;
+              background-color: rgba(
+                0,
+                0,
+                0,
+                0.7
+              ); // Semi-transparent black background
+              color: white; // White text color
+              font-size: 16px; // Smaller font size for small screens
+              padding: 15px; // Appropriate padding for visibility
+              text-align: center; // Center the text
+            }
           }
         `}</style>
       </section>
