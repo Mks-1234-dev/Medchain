@@ -17,68 +17,12 @@ const TeamData = [
   },
   {
     id: 2,
-    title: "lorem ipsum",
-    description: "CMO",
-    image: "/Satyajit.png",
-    tag: ["Leadership"],
-    fulldescription:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus natus in, velit consequatur reiciendis exercitationem libero hic porro excepturi repellat nostrum quidem aut explicabo voluptas odio ab quas. Sint, mollitia.",
-  },
-  {
-    id: 3,
-    title: "lorem ipsum",
+    title: "Sabyasachi Mohanty",
     description: "Senior Leadership",
     image: "/sabya.png",
     tag: ["Board of Advisor"],
     fulldescription:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus natus in, velit consequatur reiciendis exercitationem libero hic porro excepturi repellat nostrum quidem aut explicabo voluptas odio ab quas. Sint, mollitia.",
-  },
-  {
-    id: 4,
-    title: "lorem ipsum",
-    description: "lorem ipsumlorem ipsum lorem ipsumlorem ipsum",
-    image: "/dramin.png",
-    tag: ["Board of Advisor"],
-  },
-  {
-    id: 5,
-    title: "lorem ipsum lorem ipsum",
-    description:
-      "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
-    image: "/sabya.png",
-    tag: ["Board of Advisor"],
-  },
-  {
-    id: 6,
-    title: "lorem ipsum lorem ipsum",
-    description:
-      "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
-    image: "/dramin.png",
-    tag: ["Board of Advisor"],
-  },
-  {
-    id: 7,
-    title: "lorem ipsum lorem ipsum",
-    description:
-      "lorem ipsum lorem ipsumlorem ipsum lorem ipsum lorem ipsum lorem ipsum ",
-    image: "/sabya.png",
-    tag: ["Board of Advisor"],
-  },
-  {
-    id: 8,
-    title: "lorem ipsum lorem ",
-    description:
-      "lorem ipsum lorem ipsum lorem ipsum lorem ipsumlorem ipsum lorem ipsum.",
-    image: "/dramin.png",
-    tag: ["Board of Advisor"],
-  },
-
-  {
-    id: 9,
-    title: "lorem ipsum",
-    description: "Co-Founder & CXO",
-    image: "/pritam.png",
-    tag: ["Leadership"],
   },
 ];
 
