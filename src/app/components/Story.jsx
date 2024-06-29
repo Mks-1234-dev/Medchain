@@ -5,7 +5,7 @@ const Story = () => {
   return (
     <section id="sec">
       <div className="h-screen flex items-center bg-scroll bg-sabya md:bg-im5 bg-cover overflow-y-auto overflow-x-hidden z-10 grid grid-cols-2">
-        <div>
+        <div className="flex justify-center items-center">
           <Image
             id="img"
             src="/sabya.png"
@@ -14,7 +14,7 @@ const Story = () => {
             alt="photo"
           />
         </div>
-        <div>
+        <div className="flex flex-col justify-center items-start text-white p-8">
           <h1>Story</h1>
           <div>
             <p>
