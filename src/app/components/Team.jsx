@@ -17,12 +17,68 @@ const TeamData = [
   },
   {
     id: 2,
+    title: "Satyajit Parida",
+    description: "CMO",
+    image: "/Satyajit.png",
+    tag: ["Leadership"],
+    fulldescription:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus natus in, velit consequatur reiciendis exercitationem libero hic porro excepturi repellat nostrum quidem aut explicabo voluptas odio ab quas. Sint, mollitia.",
+  },
+  {
+    id: 3,
     title: "Sabyasachi Mohanty",
     description: "Senior Leadership",
     image: "/sabya.png",
     tag: ["Board of Advisor"],
     fulldescription:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus natus in, velit consequatur reiciendis exercitationem libero hic porro excepturi repellat nostrum quidem aut explicabo voluptas odio ab quas. Sint, mollitia.",
+  },
+  {
+    id: 4,
+    title: "Portfolio Website",
+    description: "This website is made using Next.js and Tailwind CSS.",
+    image: "/dramin.png",
+    tag: ["Board of Advisor"],
+  },
+  {
+    id: 5,
+    title: "Morse Code Keyer with raspberry pi",
+    description:
+      "Morse code keyer with raspberry pi pico which can be used to send morse code over internet.",
+    image: "/sabya.png",
+    tag: ["Board of Advisor"],
+  },
+  {
+    id: 6,
+    title: "Weather Station with raspberry pi",
+    description:
+      "Weather Station with raspberry pi and sensors which can be accessed from anywhere.",
+    image: "/dramin.png",
+    tag: ["Board of Advisor"],
+  },
+  {
+    id: 7,
+    title: "Mini Portable Game Console with raspberry pi",
+    description:
+      "Mini Portable Game Console with raspberry pi pico with audio,can run Java script games.",
+    image: "/sabya.png",
+    tag: ["Board of Advisor"],
+  },
+  {
+    id: 8,
+    title: "Controll over wifi car with raspberry pi",
+    description:
+      "Remote controll  car made with raspberry pi which can be controlled from phone.",
+    image: "/dramin.png",
+    tag: ["Board of Advisor"],
+  },
+
+  {
+    id: 9,
+    title: "Pritam Mohanty",
+    description: "Co-Founder & CXO",
+    image: "/pritam.png",
+    tag: ["Leadership"],
   },
 ];
 
