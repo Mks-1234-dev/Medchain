@@ -49,7 +49,29 @@ const Story = () => {
               recognized for his inventive use of machine learning to analyze
               vast datasets, leading to innovations in drug repurposing for
               immune system-related diseases and advancing our understanding of
-              diseases.
+              diseases.Sabyasachi laid the foundation for his career by engaging
+              deeply in research on machine learning and big data analytics for
+              health conditions like COVID-19 and ovarian cancer. His extensive
+              work is documented in numerous peer-reviewed publications,
+              establishing him as a key inventor in the burgeoning field of
+              healthcare. Driven by a passion for enhancing healthcare through
+              technology, Sabyasachi founded MedChain. This groundbreaking
+              initiative is aimed at revolutionizing medical data management
+              using blockchain technology. MedChain facilitates a secure,
+              transparent, and efficient platform where individuals can manage
+              their medical data and contribute anonymously to medical research,
+              ensuring their privacy while providing invaluable data for
+              advancements in medical science. Sabyasachi and his team envision
+              a future where medical data becomes more accessible yet secure
+              through advanced blockchain solutions, redefining how personal
+              health is managed and accelerated through technological
+              innovation. At MedChain, Sabyasachi's leadership is not just about
+              advancing technology but also about fostering a culture of
+              innovation and integrity, ensuring that the solutions developed
+              serve to enhance patient care and global health outcomes. By
+              prioritizing human-centric design and ethical standards, MedChain
+              is not just adapting to the healthcare landscape as it exists
+              today but is actively shaping it for a better tomorrow.
             </p>
           </div>
         </div>
