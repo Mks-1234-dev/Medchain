@@ -43,6 +43,19 @@ const Team = () => {
         </p>
 
         <style jsx global>{`
+          body::-webkit-scrollbar {
+            width: 8px; /* width of the entire scrollbar */
+          }
+
+          body::-webkit-scrollbar-track {
+            background: grey; /* color of the tracking area */
+          }
+
+          body::-webkit-scrollbar-thumb {
+            background-color: black; /* color of the scroll thumb */
+            border-radius: 20px; /* roundness of the scroll thumb */
+            border: 3px solid orange; /* creates padding around scroll thumb */
+          }
           @media (max-width: 768px) {
             #News {
               flex-direction: column;
@@ -83,7 +96,6 @@ const Team = () => {
           }
         `}</style>
       </section>
-      {/* //make another section like above but image in right and text in left rest same */}
       <section
         id="News"
         className="flex flex-row align-items-center "
