@@ -39,9 +39,8 @@ const Team = () => {
             padding: "20px",
           }}
         >
-          lorem ipsum lorem ipsum lorem
+          Dr. Rada(PHD)Joins the Board of Advisors.
         </p>
-
         <style jsx global>{`
           body::-webkit-scrollbar {
             width: 8px; /* width of the entire scrollbar */
@@ -96,6 +95,7 @@ const Team = () => {
           }
         `}</style>
       </section>
+      {/* //make another section like above but image in right and text in left rest same */}
       <section
         id="News"
         className="flex flex-row align-items-center "
@@ -110,7 +110,7 @@ const Team = () => {
             padding: "20px",
           }}
         >
-          lorem ipsum lorem
+          Sabya Joins the team as
         </p>
         <div
           style={{ flex: "1 0 50%", maxWidth: "50%", backgroundColor: "white" }}
@@ -190,9 +190,8 @@ const Team = () => {
             padding: "20px",
           }}
         >
-          lorem ipsum lorem ipsum lorem
+          Dr. Rada Joins the team as
         </p>
-
         <style jsx global>{`
           @media (max-width: 768px) {
             #News {
