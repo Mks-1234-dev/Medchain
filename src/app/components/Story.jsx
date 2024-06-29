@@ -4,6 +4,24 @@ import Image from "next/image";
 const Story = () => {
   return (
     <section id="sec">
+      <style>{`
+        body {
+          scrollbar-width: none;
+        }
+
+        ::-webkit-scrollbar {
+          display: none;
+        }
+        
+
+
+        @media (max-width: 768px) {
+          #img {
+            display: none;
+          }
+        }
+        
+      `}</style>
       <div className="h-screen flex items-center bg-scroll bg-sabya md:bg-im5 bg-cover overflow-y-auto overflow-x-hidden z-10 grid grid-cols-2">
         <div className="flex justify-center items-center">
           <Image
