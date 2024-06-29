@@ -44,7 +44,12 @@ const Story = () => {
               academic and professional journey to Healthcare, Sabyasachi spent
               several years at prominent research institutions, where he focused
               on healthcare data analysis and machine learning applications in
-              systems biology.
+              systems biology. His remarkable contributions include developing
+              Python pipelines for pharmacometric prediction. Sabyasachi is
+              recognized for his inventive use of machine learning to analyze
+              vast datasets, leading to innovations in drug repurposing for
+              immune system-related diseases and advancing our understanding of
+              diseases.
             </p>
           </div>
         </div>
