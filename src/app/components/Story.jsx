@@ -14,9 +14,12 @@ const Story = () => {
             alt="photo"
           />
         </div>
-        <div className="flex flex-col justify-center items-start text-white p-8">
-          <h1>Story</h1>
-          <div>
+        <div
+          style={{ marginTop: "300px" }}
+          className="flex flex-col justify-center items-start text-white p-8"
+        >
+          <h1 className="text-4xl mb-4">Story</h1>
+          <div className="max-w-xl">
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque,
               sapiente! Suscipit temporibus fugit ab voluptas molestiae
