@@ -1,3 +1,76 @@
+// "use client";
+// const Content = () => {
+//   return (
+//     <main className="overflow-y-auto" style={{ scrollBehavior: "smooth" }}>
+//       <div>
+//         <div className="flex items-center justify-center h-screen bg-fixed bg-background_1 bg-auto md:bg-cover h-screen bg-fixed flex items-center justify-center">
+//           <div className="text-center text-white max-w-xl">
+//             <h1 className="text-5xl">Medchain</h1>
+//             <p>
+//               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+//               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+//               enim ad minim veniam, quis nostrud exercitation ullamco laboris
+//               nisi ut aliquip ex ea commodo consequat.
+//             </p>
+//           </div>
+//         </div>
+//         <div className="flex items-center justify-start h-screen bg-fixed bg-im2 bg-cover">
+//           <div className=" text-white max-w-xl bottom-0 left-0">
+//             <h1 className="text-2xl">Medchain</h1>
+//             <p>
+//               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+//               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+//               enim ad minim veniam, quis nostrud exercitation ullamco laboris
+//               nisi ut aliquip ex ea commodo consequat.
+//             </p>
+//           </div>
+//         </div>
+//         <div className="flex items-center justify-start h-screen bg-fixed bg-im3 bg-cover">
+//           <div className=" text-white max-w-xl">
+//             <h1 className="text-2xl">Medchain</h1>
+//             <p>
+//               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+//               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+//               enim ad minim veniam, quis nostrud exercitation ullamco laboris
+//               nisi ut aliquip ex ea commodo consequat.
+//             </p>
+//           </div>
+//         </div>
+//         <div className="flex items-center justify-start h-screen bg-fixed bg-im4 bg-cover">
+//           <div className="text-white max-w-xl">
+//             <h1 className="text-2xl ">Medchain</h1>
+//             <p>
+//               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+//               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+//               enim ad minim veniam, quis nostrud exercitation ullamco laboris
+//               nisi ut aliquip ex ea commodo consequat.
+//             </p>
+//           </div>
+//         </div>
+//         <style jsx global>
+//           {`
+//             body::-webkit-scrollbar {
+//               width: 8px; /* width of the entire scrollbar */
+//             }
+
+//             body::-webkit-scrollbar-track {
+//               background: grey; /* color of the tracking area */
+//             }
+
+//             body::-webkit-scrollbar-thumb {
+//               background-color: black; /* color of the scroll thumb */
+//               border-radius: 20px; /* roundness of the scroll thumb */
+//               border: 3px solid orange; /* creates padding around scroll thumb */
+//             }
+//           `}
+//         </style>
+//       </div>
+//     </main>
+//   );
+// };
+
+// export default Content;
+
 "use client";
 import Template from "../components/Template";
 import React from "react";
@@ -91,22 +164,30 @@ const Content = () => {
                   <Divider />
                   <CardBody>
                     <h1 style={{ fontSize: "19px" }}>
-                      <b>Lorem Ipsum lorem</b>
+                      <b>Secure & Standard Storage</b>
                     </h1>
                     <br />
                     <p style={{ fontSize: "15px" }} className="text-start">
-                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                      Perspiciatis consequatur distinctio eos, ipsam dolor non
-                      voluptatum in aut dolorem eius doloribus quidem ex
-                      reprehenderit laboriosam sapiente deleniti maxime sunt
-                      asperiores? Lorem ipsum dolor, sit amet consectetur
-                      adipisicing elit. Sed enim neque temporibus fuga laborum
-                      vel quidem, repellendus corporis labore? Eaque laudantium
-                      vero consequuntur atque expedita natus sed officiis ad
-                      ducimus?
+                      Medchain will provide a decentralized storage platform to
+                      the patients for storing all the medical data irrespective
+                      of the type or format. Every piece of medical data
+                      irrespective of the type would be stored in a standardized
+                      format using GEN AI.
                     </p>
                     <br />
                     <br />
+                    <Divider />
+                    <br />
+                    <Template>
+                      <Link href="/news">
+                        <button
+                          style={{ marginBottom: "10px" }}
+                          className={`button3 rounded-full border-2 px-4 py-2 text-lg cursor-pointer`}
+                        >
+                          Learn more
+                        </button>
+                      </Link>
+                    </Template>
                   </CardBody>
                 </Card>
               </div>
@@ -135,23 +216,31 @@ const Content = () => {
                   <Divider />
                   <CardBody>
                     <h1 style={{ fontSize: "20px" }}>
-                      <b>lorem ipsum lorem</b>
+                      <b>AI Data Enrichment</b>
                     </h1>
                     <br />
                     <p style={{ fontSize: "15px" }} className="text-start">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Nisi aspernatur, cumque veritatis, nostrum adipisci
-                      cupiditate inventore quis unde modi molestias sapiente
-                      totam facilis, aliquid sit atque molestiae perferendis
-                      amet ratione? Lorem ipsum dolor sit amet consectetur
-                      adipisicing elit. Sit, totam, odio excepturi dolore,
-                      doloremque maiores dolorum vitae consectetur placeat quo
-                      ullam optio facilis. Eum magnam accusantium pariatur
-                      reprehenderit ad ullam.
+                      Medchain will enrich the patient's base data by adding
+                      calculated values if missing during Medchain's
+                      Standardized storing process. Based on the Healthcare
+                      professional comments in the base report Medchain adds the
+                      diagnostic and data labels.
                     </p>
                     <br />
                     <br />
                     <br />
+                    <Divider />
+                    <br />
+                    <Template>
+                      <Link href="/news">
+                        <button
+                          style={{ marginBottom: "10px" }}
+                          className={`button2 rounded-full border-2 px-4 py-2 text-lg cursor-pointer`}
+                        >
+                          Learn more
+                        </button>
+                      </Link>
+                    </Template>
                   </CardBody>
                 </Card>
               </div>
@@ -180,21 +269,29 @@ const Content = () => {
                   <Divider />
                   <CardBody>
                     <h1 style={{ fontSize: "20px" }}>
-                      <b>lorem ipsum</b>
+                      <b>Robust Marketplace</b>
                     </h1>
                     <br />
                     <p style={{ fontSize: "15px" }} className="text-start">
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                      Sit nemo laboriosam sint laborum quos repellendus
-                      accusantium vero, exercitationem numquam adipisci atque
-                      molestias error blanditiis aperiam cumque veniam soluta.
-                      Culpa, omnis. Lorem ipsum dolor sit, amet consectetur
-                      adipisicing elit. Velit asperiores eveniet numquam
-                      praesentium, voluptatibus, eum placeat est repudiandae
-                      illum commodi esse laudantium, assumenda odit id inventore
-                      ab quasi fugiat fugit.
+                      Patients can list their anonymized data on the Medchain
+                      marketplace for exchange leading to monetary benefits.
+                      Researchers and Pharmaceutical Companies get access to
+                      well-labeled and structured data for research, analysis
+                      and development from our Marketplace.
                     </p>
                     <br />
+                    <Divider />
+                    <br />
+                    <Template>
+                      <Link href="/news">
+                        <button
+                          style={{ marginBottom: "10px" }}
+                          className={`button1 rounded-full border-2 px-4 py-2 text-lg cursor-pointer`}
+                        >
+                          Learn more
+                        </button>
+                      </Link>
+                    </Template>
                   </CardBody>
                 </Card>
               </div>
