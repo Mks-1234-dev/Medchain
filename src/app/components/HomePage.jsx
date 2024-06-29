@@ -19,9 +19,11 @@ const Content = () => {
           style={{ paddingBottom: "3rem" }}
         >
           <div className="text-center text-white max-w-xl">
-            <h1 className="text-5xl">lorem | ipsum | lorem</h1>
+            <h1 className="text-5xl">STORE | ENRICH | SELL</h1>
             <br />
-            <p className="text-xl">lorem ipsum lorem ipsum lorem ipsum</p>
+            <p className="text-xl">
+              Our Blockchain based platform for Healthcare Data
+            </p>
             <br />
             <Template>
               <Link href="/connect">
@@ -41,17 +43,15 @@ const Content = () => {
         >
           <div className="text-white max-w-4xl text-center">
             <h1 className="text-7xl">
-              <b>lorem ipsum</b>
+              <b>Medchain Platfrom</b>
             </h1>
             <br />
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-              nam unde maxime, labore totam ad repudiandae, eos, expedita ipsa
-              nesciunt recusandae soluta voluptatem ratione facere fugiat minima
-              quam eum ex. Lorem ipsum dolor sit amet, consectetur adipisicing
-              elit. Deleniti eos saepe repellat a voluptatem, enim libero
-              pariatur quam repellendus, tempore dolorem cupiditate fugit,
-              beatae nam unde perferendis modi recusandae blanditiis.
+              Medchain is a platform to securely store and enrich medical data
+              of patients using Blockchain and Generative AI. This Data can be
+              published in Medchain's Marketplace anonymously for selling it to
+              Healthcare Organisations, Researchers, and Pharmaceutical
+              companies for research and development.
             </p>
             <br />
             <br />
@@ -62,7 +62,7 @@ const Content = () => {
               className="text-3xl max-w-7xl  text-center "
               style={{ fontSize: "35px" }}
             >
-              lorem ipsum lorem ipsum lorem ipsum
+              Phase - I : The genesis of the Web 3.0 Healthcare App
             </h1>
             <br />
             <div className="flex items-top justify-center grid grid-cols-1 md:grid-cols-3 gap-10 md:flex-auto">
