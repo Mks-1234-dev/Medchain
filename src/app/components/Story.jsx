@@ -4,7 +4,7 @@ import Image from "next/image";
 const Story = () => {
   return (
     <section id="sec">
-      <div>
+      <div className="h-screen flex items-center bg-scroll bg-sabya md:bg-im5 bg-cover overflow-y-auto overflow-x-hidden z-10 grid grid-cols-2">
         <div>
           <Image
             id="img"
